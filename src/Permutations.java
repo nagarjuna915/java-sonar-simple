@@ -21,6 +21,7 @@ public class Permutations {
     public  static void perm1(String s) { perm1("", s); }
     private static void perm1(String prefix, String s) {
         int N = s.length();
+        int N = s.length();
         if (N == 0) System.out.println(prefix);
         else {
             for (int i = 0; i < N; i++)
